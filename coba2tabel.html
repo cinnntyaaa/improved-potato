@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        #table1 {
+            width: 40%;
+        }
+
+        #table2 {
+            width: 40%;
+        }
+
+        table#table1 tr:nth-child(even) {
+            background: #eee;
+        }
+
+        table#table1 tr:nth-child(odd) {
+            background: #fff;
+        }
+
+        table#table1 th {
+            background: gray;
+            color: white;
+        }
+
+        table#table2 tr:nth-child(even) {
+            background: #eee;
+        }
+
+        table#table2 tr:nth-child(odd) {
+            background: #fff;
+        }
+
+        table#table2 th {
+            background: gray;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table id="table1" align="left" border="1" cellpadding="2" cellspacing="0">
+        <tbody>
+            <tr>
+                <th>No</th>
+                <th>Artikel</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Cara Membuat Tabel Berdampingan di blog</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Cara Membuat Tabel Berdampingan di blog</td>
+            </tr>
+        </tbody>
+    </table>
+    <table id="table2" align="right" border="1" cellpadding="2" cellspacing="0">
+        <tbody>
+            <tr>
+                <th>No</th>
+                <th>Artikel</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Cara Membuat Tabel Berdampingan di blog</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Cara Membuat Tabel Berdampingan di blog</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
